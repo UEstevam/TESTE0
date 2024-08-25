@@ -31,19 +31,20 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Ana Clara  | Uma forma de identificar se uma agência é realmente confiável           | Me sentir mais segura ao contratar seus serviços               |
-|Ana Clara       | Ter um mecanismo eficiente e rápido de comunicação                 | Que eu possa sanar todas as minhas dúvidas rapidamente |
+## Histórias de Usuários
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+| EU COMO... `PERSONA`                             | QUERO/PRECISO ... `FUNCIONALIDADE`                                              | PARA ... `MOTIVO/VALOR`                                                                 |
+|--------------------------------------------------|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| Pedro  Martins    | Preciso de um sistema que me permita controlar o inventário de forma simples e automática.               | Evitar rupturas de estoque e desperdícios, assegurando que sempre tenha os produtos certos disponíveis para os meus clientes, sem comprometer o meu orçamento. |
+| Ana    Sousa    | Quero um sistema que rastreie os prazos de validade dos produtos e otimize a organização do armazém.      | Minimizar desperdícios, melhorar a eficiência operacional e garantir a conformidade com as normas regulatórias.          |
+| Luís   Ferreira    | Preciso de uma funcionalidade que me forneça previsões precisas de demanda com base em dados históricos.  | Realizar compras mais eficientes, evitando excesso de estoque ou falta de produtos, e assim otimizar o fluxo de caixa.   |
+| Marta  Oliveira    | Quero uma solução que integre e sincronize o inventário entre o armazém físico e a loja online.           | Garantir que o estoque esteja sempre atualizado, evitando a venda de produtos fora de estoque e melhorando a satisfação dos clientes. |
+| Ricardo Almeida    | Preciso de uma ferramenta que me forneça dados precisos e em tempo real do inventário.                    | Realizar análises detalhadas que suportem decisões estratégicas e melhorem a eficiência operacional da empresa.           |
+
+
+
 
 ## Requisitos
 
@@ -53,31 +54,30 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário avalie uma agência de intercâmbio com base na sua experiência| ALTA | 
-|RF-002| A aplicação deve permitir que o usuário inclua comentários ao fazer uma avaliação de uma agência de intercâmbio    | ALTA |
-|RF-003| A aplicação deve permitir que o usuário consulte todas as agências de intercâmbio cadastradas ordenando-as com base em suas notas | ALTA |
+|RF-001| O sistema permitirá o usuário a cadastrar sua empresa | ALTA | 
+|RF-002| O sistema permitirá o usuário a logar na conta da empresa  | ALTA |
+|RF-003| O sistema permitirá o usuário gerenciar seus produtos  | ALTA |
+|RF-004| O sistema permitirá o usuário a visualizar seu inventário em tempo real | ALTA |
+|RF-005| O sistema permitirá o usuário adicionar itens ao seu inventário| ALTA |
+|RF-006| O sistema permitirá o usuário deletar itens do seu inventário | ALTA |
+|RF-007| O sistema permitirá o usuário gerenciar a categoria do seu produto| ALTA |
+|RF-008| O sistema permitirá o usuário gerar um relatório dos seus itens cadastrados | MÉDIA|
+|RF-009| O sistema permitirá o usuário gerenciar fornecedores| ALTA |
+|RF-010|  permitirá ao usuário pesquisar produtos no inventário usando filtros como nome, categoria ou fornecedor |  MÉDIA |
+
+
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O sistema deve ser responsivo | ALTA | 
+|RNF-002| Deve ser compatível com os principais navegadores do mercado: Google Chrome, Firefox e Microsoft Edge. | MÉDIA |  
+|RNF-003| O sistema deve ser intuitivo e fácil de usar, garantindo uma experiência agradável ao usuário. |  MÉDIA | 
+ <!-- alterei o RFN-006 para RFN-003 porque não sei se ele deve permanecer -->
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+
 
 ## Restrições
 
