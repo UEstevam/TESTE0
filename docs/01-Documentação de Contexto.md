@@ -1,6 +1,8 @@
 # Introdução
 
-Enfrentar os desafios da logística e do controle de estoque pode ser uma tarefa complexa e demorada, especialmente para empresas de pequeno e médio porte. Sabemos que as soluções de gestão de estoque disponíveis no mercado muitas vezes têm um custo elevado, tornando-se inacessíveis para muitas dessas empresas. Pensando nisso, desenvolvemos uma solução prática e acessível, projetada para simplificar e otimizar a gestão de estoque, tornando essa atividade essencial mais eficiente e menos desgastante, sem comprometer o orçamento da empresa.
+Enfrentar os desafios da logística e do controle de estoque pode ser complicado e consumir muito tempo, especialmente para pequenas e médias empresas. Muitas das soluções de gestão de estoque disponíveis no mercado são caras e inacessíveis para essas empresas. Por isso, desenvolvemos uma solução acessível e prática, projetada para simplificar e melhorar a gestão de estoque, tornando esse processo essencial mais eficiente e menos exaustivo, sem pesar no orçamento da empresa.
+
+Ao falar sobre gestão de estoque, é fundamental entender a diferença entre estoque e inventário. O estoque é o conjunto de produtos e materiais que a empresa tem armazenado, seja para venda ou para uso na produção, e está constantemente mudando à medida que os itens são vendidos ou adquiridos. O inventário, por outro lado, é o processo de contar e registrar todos os itens disponíveis no estoque em um determinado momento, servindo para verificar e corrigir possíveis discrepâncias. Em resumo, enquanto o estoque representa o total de produtos que a empresa possui, o inventário é a atividade de controle e verificação desses itens, essencial para manter uma gestão eficiente e precisa.
 
 ## Problema
 
@@ -23,9 +25,10 @@ O inventário também é essencial para a avaliação de desempenho, garantindo 
 
 ## Justificativa
 
-Criar um sistema de inventário é crucial para garantir o controle eficiente dos ativos e produtos de uma empresa. Um sistema automatizado oferece precisão em tempo real, reduzindo erros humanos e proporcionando dados confiáveis para decisões estratégicas. Ele otimiza processos operacionais, como recebimento, armazenamento e expedição, e facilita o monitoramento contínuo de perdas e furtos. Além disso, proporciona insights valiosos para planejamento e previsão, ajudando a evitar tanto a falta quanto o excesso de estoque.
 
-Além de melhorar a eficiência e reduzir custos, um sistema de inventário assegura a conformidade com normas regulatórias e simplifica auditorias. Manter um inventário bem gerido não só melhora a satisfação do cliente, garantindo que os produtos estejam disponíveis quando necessário, mas também contribui para a valorização dos ativos da empresa, essencial para relatórios financeiros e balanços patrimoniais. Em resumo, um sistema de inventário é uma estratégia fundamental para qualquer empresa que busca aprimorar sua eficiência e controle.
+Implementar um sistema de inventário é essencial para o controle eficaz dos ativos e produtos de uma empresa. Um sistema automatizado oferece precisão em tempo real, minimizando erros e fornecendo dados confiáveis para decisões estratégicas. Ele também otimiza processos como recebimento, armazenamento e expedição, além de facilitar o monitoramento de perdas e furtos. Ao fornecer insights valiosos, ajuda a evitar a escassez e o excesso de estoque.
+
+Além de aumentar a eficiência e reduzir custos, um sistema de inventário garante conformidade com normas regulatórias e simplifica auditorias. Ter um inventário bem gerido melhora a satisfação do cliente, assegurando que os produtos estejam sempre disponíveis, e aumenta o valor dos ativos da empresa, importante para relatórios financeiros. Em resumo, um sistema de inventário é fundamental para aprimorar a gestão e o controle em qualquer empresa.
 
 
 ## Público-Alvo
