@@ -11,19 +11,19 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
  As personas representam os perfis de usuários-alvo, baseados em pesquisas e comportamentos reais. Elas guiam o desenvolvimento de soluções que atendem de forma eficaz às necessidades e expectativas dos usuários. As personas criadas para nosso projeto são: 
 
 #### 1 - Pedro Martins
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque/blob/main/docs/img/Pedro%20Martins.png" alt="Persona1"/>
+![1](https://github.com/user-attachments/assets/67e8b9fb-cd53-4fe6-a508-0053331e2b23)
 
 #### 2 - Ana Sousa
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque/blob/main/docs/img/AnaSousa.png" alt="Persona2"/>
+![2](https://github.com/user-attachments/assets/2935f780-7599-4873-a61b-90dcc1a61b37)
 
 #### 3 - Luís Ferreira
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque/blob/main/docs/img/Lu%C3%ADs%20Ferreria.png" alt="Persona3"/>
+![3](https://github.com/user-attachments/assets/ea9cf6e7-87e4-4c58-adab-1a1876b359d2)
 
 #### 4 - Marta Oliveira
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque/blob/main/docs/img/Marta%20Oliveira.png" alt="Persona4"/>
+![4](https://github.com/user-attachments/assets/026c1cc5-eccb-4763-8320-47e0d2fb0fc2)
 
 #### 5 - Ricardo Almeida
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque/blob/main/docs/img/Ricardo%20Almeida.png" alt="Persona5"/>
+![5](https://github.com/user-attachments/assets/2ca3a824-42f3-4daf-abec-2a978e3d1818)
 
 ## Histórias de Usuários
 
