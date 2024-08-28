@@ -55,15 +55,17 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| O sistema permitirá o usuário a cadastrar sua empresa | ALTA | 
 |RF-002| O sistema permitirá o usuário a logar na conta da empresa  | ALTA |
-|RF-003| O sistema permitirá o usuário gerenciar seus produtos  | ALTA |
-|RF-004| O sistema permitirá o usuário a visualizar seu inventário em tempo real | ALTA |
-|RF-005| O sistema permitirá o usuário adicionar itens ao seu inventário| ALTA |
-|RF-006| O sistema permitirá o usuário deletar itens do seu inventário | ALTA |
-|RF-007| O sistema permitirá o usuário gerenciar a categoria do seu produto| ALTA |
-|RF-008| O sistema permitirá o usuário gerar um relatório dos seus itens cadastrados | MÉDIA|
-|RF-009| O sistema permitirá o usuário gerenciar fornecedores| ALTA |
-|RF-010|  permitirá ao usuário pesquisar produtos no inventário usando filtros como nome, categoria ou fornecedor |  MÉDIA |
-
+|RF-003| O sistema permitirá o usuário gerenciar seus produtos  | MÉDIA |
+|RF-004| O sistema permitirá o usuário a visualizar seu inventário em tempo real | MÉDIA |
+|RF-005| O sistema permitirá o usuário adicionar itens ao seu inventário| MÉDIA |
+|RF-006| O sistema permitirá o usuário deletar itens do seu inventário | MÉDIA |
+|RF-007| O sistema permitirá o usuário gerenciar a categoria do seu produto| BAIXA |
+|RF-008| O sistema permitirá o usuário gerar um relatório dos seus itens cadastrados | MÉDIA |
+|RF-009| O sistema permitirá o usuário gerenciar fornecedores| MÉDIA |
+|RF-010| O sistema permitirá o usuário pesquisar produtos no inventário usando filtros como nome, categoria ou fornecedor | BAIXA |
+|RF-011| O sistema permitirá o usuário configurar alertas para produtos com estoque baixo | MÉDIA |
+|RF-012| O sistema permitirá o usuário configurar alertas para produtos próximos ao vencimento | MÉDIA |
+|RF-013| O sistema permitirá o usuário exportar dados de inventário em formatos .TXT | MÉDIA |
 
 
 ### Requisitos não Funcionais
@@ -85,14 +87,12 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|02| O projeto não poderá usar frameworks                  |
+|03| O projeto deverá acessível para web                   |
+|04| 
+|05|
+|06|
 
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
