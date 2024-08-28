@@ -1,11 +1,5 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
-
 ## Personas
 
  As personas representam os perfis de usuários-alvo, baseados em pesquisas e comportamentos reais. Elas guiam o desenvolvimento de soluções que atendem de forma eficaz às necessidades e expectativas dos usuários. As personas criadas para nosso projeto são: 
@@ -89,9 +83,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| O projeto não poderá usar frameworks                  |
 |03| O projeto deverá acessível para web                   |
-|04| 
-|05|
-|06|
+|04| O estoque de itens não poderá ser negativo            |
+|05| O orçamento do projeto não deve ser superior a R$4000,00 |
+|06| O sistema de inventário deve estar em conformidade com as normas técnicas e regulatórias, como as da ABNT |
 
 
 ## Diagrama de Casos de Uso
