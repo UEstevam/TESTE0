@@ -93,5 +93,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-![sistema de inventário](https://github.com/user-attachments/assets/bd3560b4-01ea-4869-8993-7c210a66ead2)
+
+![sistema de inventário (1)](https://github.com/user-attachments/assets/f5fa7ea6-560b-4c12-8ba5-4858abf6d065)
 
