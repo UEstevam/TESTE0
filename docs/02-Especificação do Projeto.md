@@ -90,9 +90,27 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
+O diagrama de caso de uso descreve um sistema de inventário, onde o **Funcionário** interage com várias funcionalidades do sistema. Aqui estão as principais funcionalidades e suas interações:
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
+1. **Cadastrar Empresa**: O funcionário pode registrar uma nova empresa no sistema.
+2. **Login**: Acesso ao sistema por meio de login.
+3. **Gerenciar Produtos**: Permite a gestão completa dos produtos, incluindo:
+   - **Adicionar Produto**: Adicionar novos produtos ao inventário.
+   - **Editar Produto**: Atualizar informações dos produtos existentes.
+   - **Excluir Produto**: Remover produtos do inventário.
+   - **Visualizar Inventário**: Acesso à visualização detalhada do inventário.
+   - **Gerar Relatório**: Criar relatórios baseados nos dados do inventário.
+   - **Exportar em formato .TXT**: Exportar relatórios e dados em formato de texto.
+4. **Categorizar Produto**: Organização dos produtos em categorias, incluindo:
+   - **Criar Categoria Personalizada**: Criar novas categorias específicas para os produtos.
+   - **Configurar Alertas**: Definir alertas para eventos relacionados aos produtos.
+5. **Filtrar Produto**: Permite a filtragem de produtos no inventário com base em critérios específicos.
+6. **Gerenciar Fornecedores**: Gestão dos fornecedores associados aos produtos, incluindo:
+   - **Adicionar Fornecedores**: Inserir novos fornecedores no sistema.
+   - **Editar Fornecedores**: Atualizar informações dos fornecedores.
+   - **Excluir Fornecedores**: Remover fornecedores do sistema.
+
+Cada uma dessas funcionalidades está interligada, e algumas delas incluem ou estendem outras operações, permitindo uma gestão completa e personalizada do inventário e dos fornecedores associados.
 
 ![sistema de inventário (1)](https://github.com/user-attachments/assets/f5fa7ea6-560b-4c12-8ba5-4858abf6d065)
 
