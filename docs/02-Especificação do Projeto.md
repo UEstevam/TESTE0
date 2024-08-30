@@ -67,11 +67,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo | ALTA | 
-|RNF-002| Deve ser compatível com os principais navegadores do mercado: Google Chrome, Firefox e Microsoft Edge. | MÉDIA |  
+|RNF-002| O sistema deve ser compatível com os principais navegadores do mercado: Google Chrome, Firefox e Microsoft Edge. | MÉDIA |  
 |RNF-003| O sistema deve ser intuitivo e fácil de usar, garantindo uma experiência agradável ao usuário. |  MÉDIA | 
 |RNF-004| O sistema deve ser publicado em ambiente acessível ao público na Internet. | ALTA |
 |RNF-005| O sistema deve apresentar um bom nível de contraste entre os elementos da tela.| MÉDIA |
-|RNF-006| A interface do usuário deve ser intuitiva e fácil de usar, com no máximo três cliques necessários para realizar qualquer ação principal.| MÉDIA |
+|RNF-006| O sistema deve garantir que as transações de inventário sejam realizadas com consistência e sem perda de dados.| MÉDIA |
 
 
  <!-- alterei o RFN-006 para RFN-003 porque não sei se ele deve permanecer -->
