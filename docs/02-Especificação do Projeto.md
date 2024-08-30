@@ -71,7 +71,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-003| O sistema deve ser intuitivo e fácil de usar, garantindo uma experiência agradável ao usuário. |  MÉDIA | 
 |RNF-004| O sistema deve ser publicado em ambiente acessível ao público na Internet. | ALTA |
 |RNF-005| O sistema deve apresentar um bom nível de contraste entre os elementos da tela.| MÉDIA |
-|RNF-006| O sistema deve garantir que as transações de inventário sejam realizadas com consistência e sem perda de dados.| MÉDIA |
+|RNF-006| O sistema deve garantir que não ocorra duplicação de itens no inventário. | MÉDIA |
 
 
  <!-- alterei o RFN-006 para RFN-003 porque não sei se ele deve permanecer -->
