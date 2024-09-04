@@ -1,6 +1,6 @@
 
 # Metodologia
-A metodologia de trabalho do grupo envolve a utilização de ferramentas como Discord para comunicação, onde ocorrem reuniões semanais para alinhar temáticas e discutir o desenvolvimento da solução. O código-fonte é gerido por plataformas como GitHub ou GitLab, garantindo controle de versões e revisões de código. A organização do time é feita através de ferramentas como Trello ou Jira, que ajudam a monitorar o progresso das tarefas, enquanto a integração contínua automatiza testes e deploys, garantindo a qualidade do projeto.
+A metodologia de trabalho do grupo envolve a utilização do Discord como meio de comunicação, onde ocorrem reuniões semanais para alinhar temáticas e discutir o desenvolvimento da solução. O código-fonte é gerido pelo GitHub, garantindo controle de versões e revisões de código. A organização do time é feita através do Github projects, ajudando a monitorar o progresso das tarefas, enquanto a integração contínua automatiza deploys, garantindo a qualidade do projeto.
 
 ## Controle de Versão
 
