@@ -38,3 +38,11 @@ Além de aumentar a eficiência e reduzir custos, um sistema de estoque garante 
 ## Público-Alvo
 
 O público-alvo da aplicação em desenvolvimento são empresas que possuem bens físicos e ativos tangíveis, pois em resumo, qualquer organização que se enquadra nestes "requisitos" precisa de um estoque para assegurar a eficiência operacional, a integridade financeira e a satisfação dos seus clientes ou beneficiários.
+
+
+## Vídeo de Apresentação
+
+
+https://github.com/user-attachments/assets/5a6cd22d-cdf3-4f65-9da8-c36198b0e41c
+
+
