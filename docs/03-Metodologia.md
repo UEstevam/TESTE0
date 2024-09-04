@@ -26,52 +26,53 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
 
 ## Gerenciamento de Projeto
+A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, pois como citam Amaral, Fleury e Isoni (2019, p. 68), seus benefícios são a
+
+“visão clara dos resultados a entregar; ritmo e disciplina necessários à execução; definição de papéis e responsabilidades dos integrantes do projeto (Scrum Owner, Scrum Master e Team); empoderamento dos membros da equipe de projetos para atingir o desafio; conhecimento distribuído e compartilhado de forma colaborativa; ambiência favorável para crítica às ideias e não às pessoas.”
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
+- Scrum Master: Marcella Pontes dos Anjos;
+- Product Owner: Hugo Victor Magalhães Estevam;
+- Equipe de Desenvolvimento: Roger da Silva Marques, Hugo Victor Magalhães Estevam, Maria Luiza Estevam Soares, Vitor Hugo de Lima Cruz, Woton Henrique Silva Sampaio;
+- Equipe de Design: Maria Luiza Estevam Soares, Vitor Hugo de Lima Cruz;
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+O grupo está utilizando o GitHub Projects para organização e distribuição para as tarefas do projeto:
+- Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
+- To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
+- Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
+- Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+- O quadro kanban do grupo no GitHub Projects está disponível no link https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1031/views/1 e é apresentado, no estado atual, na figura abaixo:
+
+<ul>
+  <li>Bug (Erro no código)</li>
+  <li>Desenvolvimento (Development)</li>
+  <li>Documentação (Documentation)</li>
+  <li>Duplicata (Duplicate)</li>
+  <li>Gerência de Projetos (Project Management)</li>
+  <li>Infraestrutura (Infrastructure)</li>
+  <li>Testes (Tests)</li>
+</ul>
+
+![image](https://github.com/user-attachments/assets/844ba26b-a316-4f0c-bf3c-72432c62e7c9)
+
 
 ### Ferramentas
 
-As ferramentas empregadas no projeto são:
+A escolha do editor de código se deu com base nos recursos e funcionalidades, personalização, facilidade de uso e curva de aprendizado, desempenho, suporte à comunidade, combatibilidade e integração. Cada editor de código possui suas desvantagens e vantagens particulares, atendendo as necessidades específicas de cada projeto. 
+Utilizaremos como editor de código principal o VisualStudio.
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+| AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
+|-------------------------------------|------------------------------------|----------------------------------------|
+| Repositório de código fonte         | GitHub                             | N/A
+| Documentos do projeto               | GitHub                             | N/A
+| Projeto de Interface                | Figma                              | N/A
+| Gerenciamento do Projeto            | GitHub Projects                    | N/A
+| Hospedagem                          | GitHub Pages                       | N/A
