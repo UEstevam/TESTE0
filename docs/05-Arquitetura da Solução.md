@@ -6,7 +6,7 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 ## Diagrama de Classes
 
-![Classe UML](https://github.com/user-attachments/assets/d1318c3e-6b32-41ea-bd81-50809cbc7231)
+![Classe UML](https://github.com/user-attachments/assets/de37ec67-1c6c-499e-b0aa-15b9b805a236)
 
 
 > - https://lucid.app/lucidchart/59c83dcb-92cb-4de3-97e2-0a192d073f28/edit?viewport_loc=-759%2C-48%2C3120%2C1548%2CHWEp-vi-RSFO&invitationId=inv_692ff5eb-34a9-4f9b-bac7-71f388ebd694
