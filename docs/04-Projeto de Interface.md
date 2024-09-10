@@ -7,6 +7,8 @@ O diagrama de fluxo abaixo ilustra como o usuário interage com o sistema intera
 
 ![Diagrama de fluxo](https://github.com/user-attachments/assets/ed684f27-51dc-4c5a-b776-962ea671fbcf)
 
+> - https://lucid.app/lucidchart/bb4b6910-aa4d-43b8-995b-589484ce2536/edit?viewport_loc=-639%2C-482%2C2994%2C1405%2C0_0&invitationId=inv_2c8a99a3-4ef5-4d6e-aae4-566289599297
+
 ## Wireframes
 
 ![Exemplo de Wireframe](img/wireframe-example.png)
