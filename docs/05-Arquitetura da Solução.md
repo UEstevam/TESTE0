@@ -17,8 +17,7 @@ Definição de como o software é estruturado em termos dos componentes que faze
 ![modelo ER](https://github.com/user-attachments/assets/53aa5c9c-d8e0-4105-ac82-02a113cf4e8a)
 
 
-> - https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
-](https://lucid.app/lucidchart/be4065e5-978c-454b-bbae-bd5c7f8005c9/edit?invitationId=inv_77f9a53c-23fd-440f-bd89-7ff331409d69&page=HWEp-vi-RSFO#
+> - https://lucid.app/lucidchart/be4065e5-978c-454b-bbae-bd5c7f8005c9/edit?invitationId=inv_77f9a53c-23fd-440f-bd89-7ff331409d69&page=HWEp-vi-RSFO#
 ## Projeto da Base de Dados
 
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
