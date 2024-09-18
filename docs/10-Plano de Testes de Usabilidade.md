@@ -58,7 +58,7 @@ Após a execução dos testes de usabilidade, foi gerado um relatório com base 
 | **Prioridade** 	| Média |
 | **Ambiente de Teste** 	| Desktop e dispositivos móveis. |
 | **Critérios de Aceitação** 	| Todos os textos e ícones devem ser legíveis, com contraste suficiente entre o fundo e os elementos na tela. |
-| **Ação** 	| Analisar o design do sistema em diferentes dispositivos, verificando o contraste de cores conforme padrões de acessibilidade (WCAG). |
+| **Ação** 	| Analisar o design do sistema em diferentes dispositivos, verificando o contraste de cores. |
 | **Resultado Esperado** 	| O sistema deve ter um nível de contraste apropriado entre o fundo e o texto ou ícones, facilitando a leitura e navegação. |
 
 
