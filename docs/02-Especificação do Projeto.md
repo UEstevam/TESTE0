@@ -66,7 +66,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo | ALTA | 
+|RNF-001| O sistema deve ser responsivo | MÉDIA | 
 |RNF-002| O sistema deve ser compatível com os principais navegadores do mercado: Google Chrome, Firefox e Microsoft Edge. | MÉDIA |  
 |RNF-003| O sistema deve ser intuitivo e fácil de usar, garantindo uma experiência agradável ao usuário. |  MÉDIA | 
 |RNF-004| O sistema deve ser publicado em ambiente acessível ao público na Internet. | ALTA |
