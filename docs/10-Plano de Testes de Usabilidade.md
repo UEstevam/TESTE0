@@ -54,7 +54,7 @@ Após a execução dos testes de usabilidade, foi gerado um relatório com base 
 
 | **Requisito Associado** 	| RNF-005 - O sistema deve apresentar um bom nível de contraste entre os elementos da tela. |
 |:---:	|:---:	|
-| **Descrição** 	| Verificar se os elementos visuais do sistema apresentam contraste adequado para facilitar a leitura e uso, especialmente por pessoas com deficiências visuais. |
+| **Descrição** 	| Verificar se os elementos visuais do sistema apresentam contraste adequado para facilitar a leitura e uso. |
 | **Prioridade** 	| Média |
 | **Ambiente de Teste** 	| Desktop e dispositivos móveis. |
 | **Critérios de Aceitação** 	| Todos os textos e ícones devem ser legíveis, com contraste suficiente entre o fundo e os elementos na tela. |
