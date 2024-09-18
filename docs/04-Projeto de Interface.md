@@ -11,15 +11,48 @@ O diagrama de fluxo abaixo ilustra como o usuário interage com o sistema intera
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+### Cadastro
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+![Cadastro](https://github.com/user-attachments/assets/18a10f95-ce61-4c5f-992f-5240ba6443f0)
+
+### Login
+
+![login](https://github.com/user-attachments/assets/ec5f8186-e5a4-413a-a0de-15a52160c545)
+
+### Dashboard
+
+![dash board](https://github.com/user-attachments/assets/2c7dde95-bdaa-4f86-8bea-9529f78beaf2)
+
+### Perfil
+
+![Perfil](https://github.com/user-attachments/assets/cbddd829-72dc-459f-b7ec-e7616af31b87)
+
+### Fornecedores
+
+![fornecedores](https://github.com/user-attachments/assets/88672f0b-d6f7-4383-9f47-a7ffdf85945a)
+
+### Categoria
+
+![categorias](https://github.com/user-attachments/assets/9d45ead0-fa5e-41d8-aa56-5358c204b391)
+
+### Cadastro de Estoque
+
+![cadastro de estoque](https://github.com/user-attachments/assets/2f649dff-2d65-4702-aae1-c0c1b314e171)
+
+### Estoque
+
+![estoque](https://github.com/user-attachments/assets/aae546ef-cae4-427c-985d-a774ed1401b4)
+
+### Etiquetas
+
+![etiquetas](https://github.com/user-attachments/assets/5b38518b-82ad-45ff-a9b5-5e5fc974c51d)
+
+### Produto
+
+![produto](https://github.com/user-attachments/assets/621a09de-7828-441b-a00d-8a1e1569da67)
+
+### Relatório
+
+![relatorio](https://github.com/user-attachments/assets/54caaf80-d6ea-466f-9e3d-fbf36a4f638e)
+
+
