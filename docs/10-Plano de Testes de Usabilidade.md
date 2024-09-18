@@ -62,13 +62,14 @@ Após a execução dos testes de usabilidade, foi gerado um relatório com base 
 | **Resultado Esperado** 	| O sistema deve ter um nível de contraste apropriado entre o fundo e o texto ou ícones, facilitando a leitura e navegação. |
 
 
-### **Caso de Teste: CT-06 – Prevenção de duplicação de itens no Estoque**
+### **Caso de Teste: CT-06 – Suporte a múltiplos usuários simultâneos**
 
-| **Requisito Associado** 	| RNF-006 - O sistema deve garantir que não ocorra duplicação de itens no Estoque. |
+| **Requisito Associado** 	| RNF-006 - O sistema deve suportar múltiplos usuários simultaneamente. |
 |:---:	|:---:	|
-| **Descrição** 	| Verificar se o sistema previne a duplicação de itens durante a adição ou movimentação de produtos no estoque. |
+| **Descrição** 	| Testar a capacidade do sistema de gerenciar múltiplos usuários acessando e utilizando a plataforma ao mesmo tempo, sem perda de desempenho ou erros. |
 | **Prioridade** 	| Alta |
-| **Ambiente de Teste** 	| Módulo de Estoque do sistema. |
-| **Critérios de Aceitação** 	| O sistema deve alertar o usuário e evitar a duplicação de itens no estoque. |
-| **Ação** 	| Tentar adicionar itens duplicados no estoque e verificar se o sistema impede a operação e exibe um aviso. |
-| **Resultado Esperado** 	| O sistema deve impedir a duplicação de itens no estoque, exibindo uma mensagem de erro ou notificação ao usuário. |
+| **Ambiente de Teste** 	| Simulação de múltiplos acessos em um ambiente de produção, utilizando ferramentas de teste de carga. |
+| **Critérios de Aceitação** 	| O sistema deve manter seu desempenho normal e estabilidade, mesmo com vários usuários simultâneos realizando operações distintas. |
+| **Ação** 	| Realizar testes de carga e stress, simulando o acesso de vários usuários ao mesmo tempo para verificar a resposta do sistema. |
+| **Resultado Esperado** 	| O sistema deve funcionar sem lentidão, erros ou travamentos, mesmo com um grande número de usuários conectados simultaneamente. |
+
