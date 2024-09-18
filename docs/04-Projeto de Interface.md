@@ -13,11 +13,11 @@ O diagrama de fluxo abaixo ilustra como o usuário interage com o sistema intera
 
 ### Cadastro
 
-![Cadastro](https://github.com/user-attachments/assets/18a10f95-ce61-4c5f-992f-5240ba6443f0)
+![Cadastro](https://github.com/user-attachments/assets/9930cb1d-01a4-4ac2-b545-2c008fb79269)
 
 ### Login
 
-![login](https://github.com/user-attachments/assets/ec5f8186-e5a4-413a-a0de-15a52160c545)
+![login](https://github.com/user-attachments/assets/18e9941b-d2a9-48f1-a191-0f0a8c200c20)
 
 ### Dashboard
 
