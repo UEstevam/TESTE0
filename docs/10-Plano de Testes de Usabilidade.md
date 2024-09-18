@@ -7,7 +7,7 @@ Após a execução dos testes de usabilidade, foi gerado um relatório com base 
 | **Requisito Associado** 	| RNF-001 - O sistema deve ser responsivo. |
 |:---:	|:---:	|
 | **Descrição** 	| Verificar se o sistema se adapta de forma adequada a diferentes tamanhos de tela (desktop, tablet, smartphones). |
-| **Prioridade** 	| Alta |
+| **Prioridade** 	| Média |
 | **Ambiente de Teste** 	| Diversos dispositivos (desktop, tablet, smartphone) e resoluções de tela. |
 | **Critérios de Aceitação** 	| O sistema deve apresentar layout consistente, funcionalidade completa e sem distorções visuais em todos os dispositivos testados. |
 | **Ação** 	| Acessar o sistema em diferentes dispositivos e navegadores e verificar a responsividade do layout e elementos interativos. |
