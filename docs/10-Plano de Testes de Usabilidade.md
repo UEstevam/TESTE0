@@ -33,7 +33,7 @@ Após a execução dos testes de usabilidade, foi gerado um relatório com base 
 | **Descrição** 	| Testar a usabilidade geral do sistema, focando em quão intuitiva é a navegação e a realização de tarefas pelo usuário. |
 | **Prioridade** 	| Média |
 | **Ambiente de Teste** 	| Desktop e dispositivos móveis. |
-| **Critérios de Aceitação** 	| O usuário deve conseguir navegar e completar tarefas comuns com facilidade, sem necessitar de treinamento prévio. |
+| **Critérios de Aceitação** 	| O usuário deve conseguir navegar e completar tarefas comuns com facilidade, sem necessitar de orientação prévia. |
 | **Ação** 	| Simular fluxos de trabalho comuns, como cadastro, consulta e navegação no sistema, verificando a facilidade de uso. |
 | **Resultado Esperado** 	| O sistema deve ser fácil de usar, com menus claros, navegação intuitiva e respostas rápidas às ações do usuário. |
 
