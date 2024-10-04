@@ -1,0 +1,122 @@
+﻿@{
+    ViewData["Title"] = "Bem-Vindo ao Estoque Pro";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/index.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="left-section">
+                <div class="logo-container">
+                    <img src="~/images/logo.png" alt="Logo Estoque Pro" class="logo">
+                    <h1>ESTOQUE PRO</h1>
+                </div>
+                <h3>SISTEMA DE ESTOQUE</h3>
+                <h2>
+                    Inventário Sem Stress? <br> Aqui você tem <b style="color: #ff7c02">Controle</b> Total, <br> <b style="color: #ff7c02">Simplicidade</b> Máxima.
+                </h2>
+                <p>
+                    Enfrentar os desafios da logística e do controle de estoque pode ser complexo e demorado,
+                    especialmente para pequenas e médias empresas. Muitas soluções de gestão de estoque no mercado são
+                    caras e inacessíveis. <br><br> Por isso, desenvolvemos uma solução prática e acessível, projetada
+                    para simplificar e otimizar a gestão da sua empresa.</p>
+            </div>
+            <div class="right-section">
+                <form action="usuarios.php" method="POST"></form>
+                <div class="form-box">
+                    <div class="login-container" id="login-container">
+                        <div class="form-container">
+                            <!-- Formulário de Login -->
+                            <form class="form form-login" asp-action="Login" method="post">
+                                <h2 class="form-title">Fazer Login</h2>
+
+                                <div class="inputs">
+                                    <input class="form-input" type="email" name="email" placeholder="E-mail Comercial" required>
+                                    <input class="form-input" type="password" name="senha" placeholder="Senha" required>
+                                </div>
+                                <a href="#" class="form-links">Esqueceu sua senha?</a>
+                                <button type="submit" class="form-button">Entrar</button>
+
+                                @if (!ViewData.ModelState.IsValid)
+                                {
+                                    <div style="color:red">
+                                        @Html.ValidationSummary()
+                                    </div>
+                                }
+
+                                <p class="mobile-text">
+                                    Não possui uma conta ?
+                                    <a href="#" id="open-register-mobile">Registrar</a>
+                                </p>
+                            </form>
+
+                            <!-- Formulário de Cadastro -->
+                            <form class="form form-register" asp-action="Cadastro" method="post">
+                                <h2 class="form-title">Crie uma conta</h2>
+
+                                <div class="input-group">
+                                    <input class="form-input" name="nome" type="text" placeholder="Nome*" required>
+                                    <input class="form-input" name="email" type="email" placeholder="E-mail comercial*" required>
+                                    <input class="form-input" name="nomeEmpresa" type="text" placeholder="Nome da empresa*" required>
+                                    <input class="form-input" name="senha" type="password" placeholder="Senha*" required>
+                                </div>
+
+                                <button type="submit" class="form-button">Registrar</button>
+
+                                @if (!ViewData.ModelState.IsValid)
+                                {
+                                    <div style="color:red">
+                                        @Html.ValidationSummary()
+                                    </div>
+                                }
+
+                                <p class="mobile-text">
+                                    Já possui uma conta?
+                                    <a href="#" id="open-login-mobile">Login</a>
+                                </p>
+                            </form>
+                        </div>
+
+                        <div class="overlay-container">
+                            <div class="overlay">
+                                <h2 class="form-title form-title-light">Já possui uma conta?</h2>
+                                <p class="form-text">
+                                    Para entrar na nossa plataforma, realize login com suas
+                                    informações.
+                                </p>
+                                <button type="button" class="form-button form-button-light"
+                                        id="open-login">
+                                    Entrar
+                                </button>
+                            </div>
+                            <div class="overlay">
+                                <h2 class="form-title form-title-light">Estoque Pro!</h2>
+                                <p class="form-text">“Organização é a chave para o sucesso!”</p>
+                                <button type="button" class="form-button form-button-light"
+                                        id="open-register">
+                                    Registrar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+<script>
+    'use strict'
+
+    const loginContainer = document.getElementById('login-container');
+
+    const moveOverlay = () => loginContainer.classList.toggle('move');
+
+    document.getElementById('open-register').addEventListener('click', moveOverlay);
+    document.getElementById('open-login').addEventListener('click', moveOverlay);
+
+    document.getElementById('open-register-mobile').addEventListener('click', moveOverlay);
+    document.getElementById('open-login-mobile').addEventListener('click', moveOverlay);
+</script>
