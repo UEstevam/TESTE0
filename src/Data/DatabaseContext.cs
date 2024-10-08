@@ -8,5 +8,5 @@ public class DatabaseContext : DbContext
 
     }
 
-    public DbSet<Usuario> Usuarios { get; set; }
+    public DbSet<Usuario> usuarios { get; set; }
 }

@@ -32,7 +32,7 @@ namespace src.Controllers
         {
             string senhaHash = GerarHashSha256(senha);
 
-            var usuario = _context.Usuarios.FirstOrDefault(u => u.Email == email && u.Senha == senhaHash);
+            var usuario = _context.usuarios.FirstOrDefault(u => u.Email == email && u.Senha == senhaHash);
 
             if (usuario != null)
             {
@@ -47,7 +47,7 @@ namespace src.Controllers
         [HttpPost]
         public IActionResult Cadastro(string nome, string email, string nomeEmpresa, string senha)
         {
-            if (_context.Usuarios.Any(u => u.Email == email))
+            if (_context.usuarios.Any(u => u.Email == email))
             {
                 // Email já registrado
                 ModelState.AddModelError(string.Empty, "O e-mail já está registrado.");
@@ -63,7 +63,7 @@ namespace src.Controllers
                 Senha = senhaHash
             };
 
-            _context.Usuarios.Add(novoUsuario);
+            _context.usuarios.Add(novoUsuario);
             _context.SaveChanges();
 
             return RedirectToAction("Index");
