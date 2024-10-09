@@ -77,3 +77,41 @@ C:\Users\Roger Marques\OneDrive\Documentos\EstoquePRO\src\obj\Debug\net8.0\scope
 C:\Users\Roger Marques\OneDrive\Documentos\EstoquePRO\src\obj\Debug\net8.0\src.csproj.Up2Date
 C:\Users\Roger Marques\OneDrive\Documentos\EstoquePRO\src\obj\Debug\net8.0\src.genruntimeconfig.cache
 C:\Users\Roger Marques\OneDrive\Documentos\EstoquePRO\src\obj\Debug\net8.0\ref\src.dll
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\bin\Debug\net8.0\appsettings.Development.json
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\bin\Debug\net8.0\appsettings.json
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\bin\Debug\net8.0\src.staticwebassets.runtime.json
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\bin\Debug\net8.0\src.exe
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\bin\Debug\net8.0\src.deps.json
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\bin\Debug\net8.0\src.runtimeconfig.json
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\bin\Debug\net8.0\src.dll
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\bin\Debug\net8.0\src.pdb
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\bin\Debug\net8.0\MySqlConnector.dll
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\obj\Debug\net8.0\src.csproj.AssemblyReference.cache
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\obj\Debug\net8.0\src.GeneratedMSBuildEditorConfig.editorconfig
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\obj\Debug\net8.0\src.AssemblyInfoInputs.cache
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\obj\Debug\net8.0\src.AssemblyInfo.cs
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\obj\Debug\net8.0\src.csproj.CoreCompileInputs.cache
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\obj\Debug\net8.0\src.MvcApplicationPartsAssemblyInfo.cache
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\obj\Debug\net8.0\src.RazorAssemblyInfo.cache
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\obj\Debug\net8.0\src.RazorAssemblyInfo.cs
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\obj\Debug\net8.0\src.sourcelink.json
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\obj\Debug\net8.0\staticwebassets.build.json
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\obj\Debug\net8.0\staticwebassets.development.json
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\obj\Debug\net8.0\staticwebassets\msbuild.src.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\obj\Debug\net8.0\staticwebassets\msbuild.build.src.props
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.src.props
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.src.props
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\obj\Debug\net8.0\scopedcss\bundle\src.styles.css
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\obj\Debug\net8.0\scopedcss\projectbundle\src.bundle.scp.css
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\obj\Debug\net8.0\src.csproj.Up2Date
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\obj\Debug\net8.0\src.dll
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\obj\Debug\net8.0\refint\src.dll
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\obj\Debug\net8.0\src.pdb
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\obj\Debug\net8.0\src.genruntimeconfig.cache
+E:\Downloads_Navegador\PUC_SEMESTRE_2\src\obj\Debug\net8.0\ref\src.dll
