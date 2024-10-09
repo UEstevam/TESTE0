@@ -1,0 +1,41 @@
+@{
+    ViewData["Title"] = "Perfil Estoque Pro";
+}
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/perfil.css">
+</head>
+
+<body>
+    <header>
+        <div class="estoque-pro-header">
+            <img src="~/images/logo.png" alt="Logo Estoque Pro" class="logo">
+            <h1>ESTOQUE PRO</h1>
+        </div>
+        <div id="sair">Sair</div>
+    </header>
+    <main>
+        <div id="quadrado_superior">
+            <div id="empresa">Empresa XXXXX</div>
+            <div id="estoques">Estoques</div>
+            <div id="categorias">Categorias</div>
+            <div id="fornecedores">Fornecedores</div>
+            <div id="perfil">Perfil</div>
+        </div>
+        <div id="quadrado_principal">
+            <div id="usuario">Usu�rio:</div>
+            <input id="p1" type="text" required>
+            <div id="nome_empresa">Empresa:</div>
+            <input id="p2" type="text" required>
+            <div id="email">Email:</div>
+            <input id="p3" type="email" required>
+            <div id="endere�o">Endere�o:</div>
+            <input id="p4" type="text" required>
+            <div id="telefone">Telefone:</div>
+            <input id="p4" type="tel" required>
+        </div>
+
+        <button id="salvar">Salvar</button>
+    </main>
+</body>

@@ -36,7 +36,7 @@ namespace src.Controllers
 
             if (usuario != null)
             {
-                return RedirectToAction("Index");
+                return RedirectToAction("Perfil");
 
             }
 

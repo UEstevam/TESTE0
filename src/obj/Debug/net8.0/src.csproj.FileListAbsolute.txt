@@ -36,3 +36,6 @@ G:\Projects\PUC\pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-esto
 G:\Projects\PUC\pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque\src\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
 G:\Projects\PUC\pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque\src\obj\Debug\net8.0\src.csproj.AssemblyReference.cache
 G:\Projects\PUC\pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque\src\obj\Debug\net8.0\src.csproj.Up2Date
+C:\Users\Marcella Pontes\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque\src\obj\Debug\net8.0\src.dll
+C:\Users\Marcella Pontes\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque\src\obj\Debug\net8.0\refint\src.dll
+C:\Users\Marcella Pontes\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque\src\obj\Debug\net8.0\src.pdb
