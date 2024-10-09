@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vDhSAH54Nz5X2cth8hrccqphebPZonRkY/tdXAm9i1E=",
+  "Hash": "vmG4dUwr29SSHMAghez7bStI6ZhgZF+aIYpvja4etBo=",
   "Source": "src",
   "BasePath": "_content/src",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\index.css"
+    },
+    {
+      "Identity": "G:\\Projects\\PUC\\pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque\\src\\wwwroot\\css\\perfil.css",
+      "SourceId": "src",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\Projects\\PUC\\pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque\\src\\wwwroot\\",
+      "BasePath": "_content/src",
+      "RelativePath": "css/perfil.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\perfil.css"
     },
     {
       "Identity": "G:\\Projects\\PUC\\pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque\\src\\wwwroot\\css\\site.css",
