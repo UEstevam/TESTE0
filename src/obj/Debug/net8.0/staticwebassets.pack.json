@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\src.bundle.scp.css"
     },
     {
+      "Id": "E:\\Downloads_Navegador\\PUC_SEMESTRE_2\\src\\wwwroot\\css\\categoria.css",
+      "PackagePath": "staticwebassets\\css\\categoria.css"
+    },
+    {
+      "Id": "E:\\Downloads_Navegador\\PUC_SEMESTRE_2\\src\\wwwroot\\css\\fornecedores.css",
+      "PackagePath": "staticwebassets\\css\\fornecedores.css"
+    },
+    {
       "Id": "E:\\Downloads_Navegador\\PUC_SEMESTRE_2\\src\\wwwroot\\css\\index.css",
       "PackagePath": "staticwebassets\\css\\index.css"
     },

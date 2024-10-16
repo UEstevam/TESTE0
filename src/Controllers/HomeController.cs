@@ -22,6 +22,16 @@ namespace src.Controllers
             return View();
         }
 
+        public IActionResult Fornecedores()
+        {
+            return View();
+        }
+
+        public IActionResult Categorias()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
