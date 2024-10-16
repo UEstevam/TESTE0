@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Downloads_Navegador\\PUC_SEMESTRE_2\\src\\src.csproj": {}
+    "C:\\Users\\Marcella Pontes\\Source\\Repos\\pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque\\src\\src.csproj": {}
   },
   "projects": {
-    "E:\\Downloads_Navegador\\PUC_SEMESTRE_2\\src\\src.csproj": {
+    "C:\\Users\\Marcella Pontes\\Source\\Repos\\pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque\\src\\src.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Downloads_Navegador\\PUC_SEMESTRE_2\\src\\src.csproj",
+        "projectUniqueName": "C:\\Users\\Marcella Pontes\\Source\\Repos\\pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque\\src\\src.csproj",
         "projectName": "src",
-        "projectPath": "E:\\Downloads_Navegador\\PUC_SEMESTRE_2\\src\\src.csproj",
-        "packagesPath": "C:\\Users\\Estevam\\.nuget\\packages\\",
-        "outputPath": "E:\\Downloads_Navegador\\PUC_SEMESTRE_2\\src\\obj\\",
+        "projectPath": "C:\\Users\\Marcella Pontes\\Source\\Repos\\pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque\\src\\src.csproj",
+        "packagesPath": "C:\\Users\\Marcella Pontes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Marcella Pontes\\Source\\Repos\\pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque\\src\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Estevam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Marcella Pontes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -70,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
