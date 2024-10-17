@@ -1,0 +1,56 @@
+@model src.Models.Usuario
+
+@{
+    ViewData["Title"] = "Perfil Estoque Pro";
+}
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/perfil.css">
+</head>
+
+<body>
+    <header>
+        <div class="estoque-pro-header">
+            <img src="~/images/logo.png" alt="Logo Estoque Pro" class="logo">
+            <h1>ESTOQUE PRO</h1>
+        </div>
+        <div id="sair">Sair</div>
+    </header>
+    <main>
+        <div id="quadrado_superior">
+            <div id="empresa">Empresa XXXXX</div>
+            <div id="estoques">Estoques</div>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <a class="btn btn-secundary" role="button" asp-controller="Home" asp-action="Categorias">Categorias</a>
+            </div>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <a class="btn btn-secundary" role="button" asp-controller="Home" asp-action="Fornecedores">Fornecedores</a>
+            </div>
+            <div id="perfil">Perfil</div>
+        </div>
+
+        <!-- Formulário para atualizar os dados do usuário -->
+        <form asp-controller="Perfil" asp-action="AtualizarPerfil" method="post">
+            <!-- Campo oculto para enviar o Id do usuário -->
+            <input type="hidden" asp-for="Id" />
+
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome</label>
+                <input id="nome" type="text" asp-for="Nome" class="form-control"/>
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input id="email" type="text" asp-for="Email" class="form-control" />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+        </form>
+
+        <form class="mt-4" asp-action="DeletarPerfil" method="post">
+            <input type="hidden" name="id" value="@Model.Id" />
+            <button class="btn btn-danger" type="submit" onclick="return confirm('Você tem certeza que deseja deletar este perfil?');">Deletar Perfil</button>
+        </form>
+    </main>
+</body>

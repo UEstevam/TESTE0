@@ -46,7 +46,7 @@ namespace src.Controllers
 
             if (usuario != null)
             {
-                return View("Perfil");
+                return RedirectToAction("Perfil", "Perfil", new { id = usuario.Id });
 
             }
 
