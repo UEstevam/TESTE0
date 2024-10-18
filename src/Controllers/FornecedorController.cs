@@ -47,14 +47,21 @@ namespace src.Controllers
         }
 
         // Ação para deletar um fornecedor
-        public IActionResult Delete(int id)
+        public IActionResult Deletar(int id)
         {
             var fornecedor = _context.Fornecedor.FirstOrDefault(f => f.Id == id);
             if (fornecedor == null)
             {
                 return NotFound();
             }
-            return View(fornecedor);
+
+            // Remove o usuário do banco de dados
+            _context.Fornecedor.Remove(fornecedor);
+            _context.SaveChanges();
+
+            // Redireciona para a página inicial ou página de sucesso após a deleção
+            return RedirectToAction("Index");
+
         }
     }
 }
