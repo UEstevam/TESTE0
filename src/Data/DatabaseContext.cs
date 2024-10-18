@@ -9,4 +9,6 @@ public class DatabaseContext : DbContext
     }
 
     public DbSet<Usuario> usuarios { get; set; }
+
+public DbSet<src.Models.Fornecedor> Fornecedor { get; set; } = default!;
 }

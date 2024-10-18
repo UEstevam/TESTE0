@@ -11,7 +11,7 @@
         "projectName": "src",
         "projectPath": "C:\\Users\\Roger Marques\\OneDrive\\Documentos\\EstoquePRO\\src\\src.csproj",
         "packagesPath": "C:\\Users\\Roger Marques\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Roger Marques\\OneDrive\\Documentos\\EstoquePro\\src\\obj\\",
+        "outputPath": "C:\\Users\\Roger Marques\\OneDrive\\Documentos\\EstoquePRO\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Roger Marques\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,16 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[8.0.2, )"
