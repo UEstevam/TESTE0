@@ -25,7 +25,7 @@ namespace src.Models
         public string EnderecoRua { get; set; }
 
         [Column("endereco_numero")]
-        public string EnderocoNumero { get; set; }
+        public string EnderecoNumero { get; set; }
 
         [Column("endereco_uf")]
         public string EnderecoUF { get; set; }

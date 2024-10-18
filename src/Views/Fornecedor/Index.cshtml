@@ -43,6 +43,9 @@
                 <thead>
                     <tr>
                         <th>
+                            ID
+                        </th>
+                        <th>
                             Nome
                         </th>
                         <th>
@@ -71,6 +74,9 @@
                     {
                         <tr>
                             <td>
+                                @Html.DisplayFor(modelItem => item.Id)
+                            </td>
+                            <td>
                                 @Html.DisplayFor(modelItem => item.Nome)
                             </td>
                             <td>
@@ -83,7 +89,7 @@
                                 @Html.DisplayFor(modelItem => item.EnderecoRua)
                             </td>
                             <td>
-                                @Html.DisplayFor(modelItem => item.EnderocoNumero)
+                                @Html.DisplayFor(modelItem => item.EnderecoNumero)
                             </td>
                             <td>
                                 @Html.DisplayFor(modelItem => item.EnderecoUF)
@@ -92,8 +98,7 @@
                                 @Html.DisplayFor(modelItem => item.EnderecoCEP)
                             </td>
                             <td>
-                                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-                                <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
+                                <a asp-controller="Fornecedor" asp-action="Editar" asp-route-id="@item.Id">Editar</a> |
                                 <a asp-controller="Fornecedor" asp-action="Deletar" asp-route-id="@item.Id">Deletar</a>
                             </td>
                         </tr>

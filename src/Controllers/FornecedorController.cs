@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 using src.Models;
 using System.Linq;
 
@@ -36,7 +37,7 @@ namespace src.Controllers
         }
 
         // Ação para editar um fornecedor
-        public IActionResult Edit(int id)
+        public IActionResult Editar(int id)
         {
             var fornecedor = _context.Fornecedor.FirstOrDefault(f => f.Id == id);
             if (fornecedor == null)
@@ -44,6 +45,36 @@ namespace src.Controllers
                 return NotFound();
             }
             return View(fornecedor);
+        }
+
+        // Ação para editar um fornecedor
+        [HttpPost]
+        public IActionResult EditarPerfil(Fornecedor fornecedor)
+        {
+            // Busca o usuário pelo ID
+            var fornecedorExistente = _context.Fornecedor.FirstOrDefault(u => u.Id == fornecedor.Id);
+
+            if (fornecedorExistente == null)
+            {
+                return NotFound();
+            }
+
+            // Atualiza os dados do usuário
+            fornecedorExistente.Id = fornecedor.Id;
+            fornecedorExistente.Nome = fornecedor.Nome;
+            fornecedorExistente.Email = fornecedor.Email;
+            fornecedorExistente.Telefone = fornecedor.Telefone ;
+            fornecedorExistente.EnderecoRua = fornecedor.EnderecoRua;
+            fornecedorExistente.EnderecoNumero = fornecedor.EnderecoNumero;
+            fornecedorExistente.EnderecoCEP = fornecedor.EnderecoCEP;
+            fornecedorExistente.EnderecoUF = fornecedor.EnderecoUF;
+
+            // Salva as alterações no banco de dados
+            _context.Fornecedor.Update(fornecedorExistente);
+            _context.SaveChanges();
+
+            // Redireciona para o fornecedor atualizado, passando o ID
+            return RedirectToAction("Index", new { id = fornecedorExistente.Id });
         }
 
         // Ação para deletar um fornecedor
