@@ -27,17 +27,17 @@ namespace src.Controllers
         }
 
         // Ação para exibir os detalhes de um fornecedor
-        public IActionResult Details(int id)
-        {
-            var fornecedor = _context.Fornecedor.FirstOrDefault(f => f.Id == id);
-            if (fornecedor == null)
-            {
-                return NotFound();
-            }
-            return View(fornecedor);
-        }
+        //public IActionResult Details(int id)
+        //{
+        //    var fornecedor = _context.Fornecedor.FirstOrDefault(f => f.Id == id);
+        //    if (fornecedor == null)
+        //    {
+        //        return NotFound();
+        //    }
+        //    return View(fornecedor);
+        //}
 
-        // Ação para editar um fornecedor
+        // Renderiza o formulário para editar um fornecedor
         public IActionResult Editar(int id)
         {
             var fornecedor = _context.Fornecedor.FirstOrDefault(f => f.Id == id);
@@ -50,7 +50,7 @@ namespace src.Controllers
 
         // Ação para editar um fornecedor
         [HttpPost]
-        public IActionResult EditarPerfil(Fornecedor fornecedor)
+        public IActionResult EditarFornecedor(Fornecedor fornecedor)
         {
             // Busca o usuário pelo ID
             var fornecedorExistente = _context.Fornecedor.FirstOrDefault(u => u.Id == fornecedor.Id);
@@ -82,6 +82,28 @@ namespace src.Controllers
         public IActionResult Adicionar()
         {    
             return View();
+        }
+        
+        // Ação adicionar um novo fornecedor
+        [HttpPost]
+        public IActionResult AdicionarFornecedor(string nome, string email, string telefone, string EnderecoRua, string EnderecoNumero, string EnderecoCEP, string EnderecoUF)
+        {
+            // Criando objeto do fornecedor
+            var novoFornecedor = new Fornecedor
+            {
+                Nome = nome,
+                Email = email,
+                Telefone = telefone,
+                EnderecoRua = EnderecoRua,
+                EnderecoNumero = EnderecoNumero,
+                EnderecoCEP = EnderecoCEP,
+                EnderecoUF = EnderecoUF
+            };
+
+            _context.Fornecedor.Add(novoFornecedor);
+            _context.SaveChanges();
+
+            return RedirectToAction("Index");
         }
 
         // Ação para deletar um fornecedor
