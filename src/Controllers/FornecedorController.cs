@@ -19,6 +19,7 @@ namespace src.Controllers
         public IActionResult Index()
         {
             // Busca a lista de fornecedores diretamente do banco de dados
+            
             var fornecedores = _context.Fornecedor.ToList();
 
             // Passa a lista de fornecedores para a view
@@ -75,6 +76,12 @@ namespace src.Controllers
 
             // Redireciona para o fornecedor atualizado, passando o ID
             return RedirectToAction("Index", new { id = fornecedorExistente.Id });
+        }
+
+        // Renderiza o formulário para adicionar um fornecedor
+        public IActionResult Adicionar()
+        {    
+            return View();
         }
 
         // Ação para deletar um fornecedor

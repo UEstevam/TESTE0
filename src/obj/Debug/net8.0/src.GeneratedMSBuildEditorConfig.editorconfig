@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Roger Marques\OneDrive\Documentos\EstoquePRO\src
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Roger Marques/OneDrive/Documentos/EstoquePRO/src/Views/Fornecedor/Adicionar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybmVjZWRvclxBZGljaW9uYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Roger Marques/OneDrive/Documentos/EstoquePRO/src/Views/Fornecedor/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybmVjZWRvclxFZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
