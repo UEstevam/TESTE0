@@ -26,17 +26,6 @@ namespace src.Controllers
             return View(fornecedores);
         }
 
-        // Ação para exibir os detalhes de um fornecedor
-        //public IActionResult Details(int id)
-        //{
-        //    var fornecedor = _context.Fornecedor.FirstOrDefault(f => f.Id == id);
-        //    if (fornecedor == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    return View(fornecedor);
-        //}
-
         // Renderiza o formulário para editar um fornecedor
         public IActionResult Editar(int id)
         {

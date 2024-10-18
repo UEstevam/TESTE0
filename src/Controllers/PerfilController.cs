@@ -27,6 +27,7 @@ namespace src.Controllers
             return View("Perfil", usuarioExistente);
         }
 
+        // Ação para atualizar o perfil
         [HttpPost]
         public IActionResult AtualizarPerfil(int id, string nome, string email)
         {
