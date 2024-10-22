@@ -66,7 +66,7 @@ namespace src.Controllers
             _context.SaveChanges();
 
             // Redireciona para o fornecedor atualizado, passando o ID
-            return RedirectToAction("Index", new { id = fornecedorExistente.Id });
+            return RedirectToAction("Index");
         }
 
         // Renderiza o formulário para adicionar um fornecedor
