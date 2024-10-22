@@ -17,7 +17,8 @@ namespace src.Controllers
         public IActionResult Perfil(int id)
         {
             // Busca o usuário pelo ID
-            var usuarioExistente = _context.usuarios.FirstOrDefault(u => u.Id == id);
+            var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+            var usuarioExistente = _context.usuarios.FirstOrDefault(u => u.Id == int.Parse(userId ?? ""));
 
             if (usuarioExistente == null)
             {

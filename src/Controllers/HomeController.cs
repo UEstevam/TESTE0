@@ -1,8 +1,11 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using src.Models;
 using System;
 using System.Diagnostics;
+using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 
@@ -38,7 +41,7 @@ namespace src.Controllers
         }
 
         [HttpPost]
-        public IActionResult Login(string email, string senha)
+        public async Task<IActionResult> Login(string email, string senha)
         {
             string senhaHash = GerarHashSha256(senha);
 
@@ -46,6 +49,15 @@ namespace src.Controllers
 
             if (usuario != null)
             {
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.NameIdentifier, usuario.Id.ToString()),
+                    new Claim(ClaimTypes.Email, usuario.Email)
+                };
+
+                var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity));
+
                 return RedirectToAction("Perfil", "Perfil", new { id = usuario.Id });
 
             }

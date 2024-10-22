@@ -17,59 +17,59 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = src
 build_property.RootNamespace = src
-build_property.ProjectDir = C:\Users\Roger Marques\OneDrive\Documentos\EstoquePRO\src\
+build_property.ProjectDir = G:\Projects\PUC\pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque\src\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Roger Marques\OneDrive\Documentos\EstoquePRO\src
+build_property.MSBuildProjectDirectory = G:\Projects\PUC\pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque\src
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Roger Marques/OneDrive/Documentos/EstoquePRO/src/Views/Fornecedor/Adicionar.cshtml]
+[G:/Projects/PUC/pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque/src/Views/Fornecedor/Adicionar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybmVjZWRvclxBZGljaW9uYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Roger Marques/OneDrive/Documentos/EstoquePRO/src/Views/Fornecedor/Editar.cshtml]
+[G:/Projects/PUC/pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque/src/Views/Fornecedor/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybmVjZWRvclxFZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Roger Marques/OneDrive/Documentos/EstoquePRO/src/Views/Fornecedor/Index.cshtml]
+[G:/Projects/PUC/pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque/src/Views/Fornecedor/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybmVjZWRvclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Roger Marques/OneDrive/Documentos/EstoquePRO/src/Views/Home/categorias.cshtml]
+[G:/Projects/PUC/pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque/src/Views/Home/categorias.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjYXRlZ29yaWFzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Roger Marques/OneDrive/Documentos/EstoquePRO/src/Views/Home/Index.cshtml]
+[G:/Projects/PUC/pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque/src/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Roger Marques/OneDrive/Documentos/EstoquePRO/src/Views/Home/Privacy.cshtml]
+[G:/Projects/PUC/pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque/src/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Roger Marques/OneDrive/Documentos/EstoquePRO/src/Views/Perfil/Perfil.cshtml]
+[G:/Projects/PUC/pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque/src/Views/Perfil/Perfil.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyZmlsXFBlcmZpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Roger Marques/OneDrive/Documentos/EstoquePRO/src/Views/Shared/Error.cshtml]
+[G:/Projects/PUC/pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque/src/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Roger Marques/OneDrive/Documentos/EstoquePRO/src/Views/Shared/_ValidationScriptsPartial.cshtml]
+[G:/Projects/PUC/pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque/src/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Roger Marques/OneDrive/Documentos/EstoquePRO/src/Views/_ViewImports.cshtml]
+[G:/Projects/PUC/pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque/src/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Roger Marques/OneDrive/Documentos/EstoquePRO/src/Views/_ViewStart.cshtml]
+[G:/Projects/PUC/pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque/src/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Roger Marques/OneDrive/Documentos/EstoquePRO/src/Views/Shared/_Layout.cshtml]
+[G:/Projects/PUC/pmv-ads-2024-2-e2-proj-int-t1-pmv-ads-2024-2-e2-proj-int-t1-estoque/src/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-4zhtr0620b

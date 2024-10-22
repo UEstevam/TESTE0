@@ -18,11 +18,13 @@ namespace src.Controllers
         // Ação para listar todos os fornecedores
         public IActionResult Index()
         {
-            // Busca a lista de fornecedores diretamente do banco de dados
-            
-            var fornecedores = _context.Fornecedor.ToList();
+            var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+            if (userId == null) {
+                return View();
 
-            // Passa a lista de fornecedores para a view
+            }
+
+            var fornecedores = _context.Fornecedor.Where(f => f.IdUser == int.Parse(userId)).ToList();
             return View(fornecedores);
         }
 
@@ -77,22 +79,29 @@ namespace src.Controllers
         [HttpPost]
         public IActionResult AdicionarFornecedor(string nome, string email, string telefone, string EnderecoRua, string EnderecoNumero, string EnderecoCEP, string EnderecoUF)
         {
-            // Criando objeto do fornecedor
-            var novoFornecedor = new Fornecedor
+
+            var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+            if(userId != null)
             {
-                Nome = nome,
-                Email = email,
-                Telefone = telefone,
-                EnderecoRua = EnderecoRua,
-                EnderecoNumero = EnderecoNumero,
-                EnderecoCEP = EnderecoCEP,
-                EnderecoUF = EnderecoUF
-            };
+                var novoFornecedor = new Fornecedor
+                {
+                    IdUser = int.Parse(userId),
+                    Nome = nome,
+                    Email = email,
+                    Telefone = telefone,
+                    EnderecoRua = EnderecoRua,
+                    EnderecoNumero = EnderecoNumero,
+                    EnderecoCEP = EnderecoCEP,
+                    EnderecoUF = EnderecoUF
+                };
 
-            _context.Fornecedor.Add(novoFornecedor);
-            _context.SaveChanges();
+                _context.Fornecedor.Add(novoFornecedor);
+                _context.SaveChanges();
 
-            return RedirectToAction("Index");
+                return RedirectToAction("Index");
+            }
+
+            return NotFound();
         }
 
         // Ação para deletar um fornecedor
