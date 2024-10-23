@@ -48,6 +48,13 @@
             <button type="submit" class="btn btn-primary">Salvar Alterações</button>
         </form>
 
+        @if (!ViewData.ModelState.IsValid)
+        {
+            <div style="color:green">
+                @Html.ValidationSummary()
+            </div>
+        }
+
         <form class="mt-4" asp-action="DeletarPerfil" method="post">
             <input type="hidden" name="id" value="@Model.Id" />
             <button class="btn btn-danger" type="submit" onclick="return confirm('Você tem certeza que deseja deletar este perfil?');">Deletar Perfil</button>

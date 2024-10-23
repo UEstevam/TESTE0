@@ -48,8 +48,9 @@ namespace src.Controllers
             _context.usuarios.Update(usuarioExistente);
             _context.SaveChanges();
 
+            ModelState.AddModelError(string.Empty, "Perfil editado com sucesso!");
             // Redireciona para o perfil atualizado, passando o ID
-            return RedirectToAction("Perfil", new {id = usuarioExistente.Id});
+            return View("Perfil", usuarioExistente);
         }
 
         // Action para deletar o perfil do usuário
