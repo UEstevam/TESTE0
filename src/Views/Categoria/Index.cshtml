@@ -1,0 +1,82 @@
+﻿@model IEnumerable<src.Models.Categoria>
+
+@{
+    ViewData["Title"] = "Categorias";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/fornecedores.css">
+</head>
+<body>
+    <div class="container">
+        <header class="cabecalho">
+            <div class="estoque-pro-header">
+                <img src="~/images/logo.png" alt="Logo Estoque Pro" class="logo">
+                <h1>ESTOQUE PRO</h1>
+            </div>
+            <div class="logout">
+                <a href="#">Sair</a>
+            </div>
+        </header>
+
+        <div class="menu">
+            <h2>EMPRESA XXXXX</h2>
+            <nav>
+                <ul>
+                    <li><a href="#">Estoques</a></li>
+                    <li><a href="#">Categorias</a></li>
+                    <li><a href="#" class="active">Fornecedores</a></li>
+                    <li><a asp-controller="Perfil" asp-action="Perfil">Perfil</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <main>
+            <div class="title">
+                <h2>Gerenciar Categorias</h2>
+            </div>
+
+            <div class="add-supplier">
+                <a class="btn btn-primary" asp-controller="Fornecedor" asp-action="Adicionar">Adicionar</a>
+            </div>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Descricao</th>
+                        <th>Criado Em</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Nome)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Descricao)</td>
+                            <td>@Html.DisplayFor(modelItem => item.CriadoEm)</td>
+                            <td>
+                                <a style="text-decoration: none" asp-controller="Fornecedor" asp-action="Editar" asp-route-id="@item.Id">
+                                    <img src="~/images/pencil-square.svg" alt="Editar" />
+                                </a> |
+                                <a asp-controller="Fornecedor" asp-action="Deletar" asp-route-id="@item.Id" onclick="return confirm('Você tem certeza que deseja deletar esta categoria?');">
+                                    <img src="~/images/trash.svg" alt="Deletar" />
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                    @if (!Model.Any())
+                    {
+                        <tr>
+                            <td colspan="5" class="text-center">Nenhuma categoria encontrada.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </main>
+    </div>
+</body>
+</html>
