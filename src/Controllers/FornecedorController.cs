@@ -25,7 +25,14 @@ namespace src.Controllers
             }
 
             var fornecedores = _context.Fornecedor.Where(f => f.IdUser == int.Parse(userId)).ToList();
-            return View(fornecedores);
+            var usuarioExistente = _context.usuarios.FirstOrDefault(u => u.Id == int.Parse(userId ?? ""));
+            var model = new FornecedorView
+            {
+                Fornecedors = fornecedores,
+                Usuario = usuarioExistente
+            };
+
+            return View(model);
         }
 
         // Renderiza o formulário para editar um fornecedor

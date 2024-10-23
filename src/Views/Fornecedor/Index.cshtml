@@ -1,4 +1,4 @@
-﻿@model IEnumerable<src.Models.Fornecedor>
+﻿@model src.Models.FornecedorView
 
 @{
     ViewData["Title"] = "Bem-Vindo ao Estoque Pro";
@@ -19,7 +19,7 @@
         </header>
 
         <div class="menu">
-            <a> id="email" type="text" asp-for="Email" class="form-control" </a>
+            <h2>EMPRESA @Model.Usuario.Nome</h2>
             <nav>
                 <ul>
                     <li><a href="#" >Estoques</a></li>
@@ -70,7 +70,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach (var item in Model)
+                    @foreach (var item in Model.Fornecedors)
                     {
                         <tr>
                             <td>

@@ -8,9 +8,13 @@
 
   <ItemGroup>
     <Compile Remove="Views\Fornecedors\**" />
+    <Compile Remove="Views\NovaPasta\**" />
     <Content Remove="Views\Fornecedors\**" />
+    <Content Remove="Views\NovaPasta\**" />
     <EmbeddedResource Remove="Views\Fornecedors\**" />
+    <EmbeddedResource Remove="Views\NovaPasta\**" />
     <None Remove="Views\Fornecedors\**" />
+    <None Remove="Views\NovaPasta\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,10 +24,6 @@
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.6" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Views\NovaPasta\" />
   </ItemGroup>
 
 </Project>
