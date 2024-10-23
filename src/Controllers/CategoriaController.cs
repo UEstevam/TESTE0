@@ -25,9 +25,18 @@ namespace src.Controllers
 
             }
 
-            var categorias = _context.Categoria.Where(f => f.IdUser == int.Parse(userId)).ToList();
-            var usuarioExistente = _context.usuarios.FirstOrDefault(u => u.Id == int.Parse(userId ?? ""));
-            
+            // Converte o userId para int de maneira segura
+            int userIdParsed;
+            if (!int.TryParse(userId, out userIdParsed))
+            {
+                // Se a conversão falhar, também podemos redirecionar ou tratar o erro
+                return View("Error");
+            }
+
+            // Busca as categorias associadas ao usuário autenticado
+            var categorias = _context.Categoria
+                                     .Where(c => c.IdUser == userIdParsed)
+                                     .ToList();
 
             return View(categorias);
         }

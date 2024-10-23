@@ -15,6 +15,6 @@ namespace src.Models
         public string Nome { get; set; }
         public string Descricao { get; set; }
         [Column("criado_em")]
-        public string CriadoEm { get; set; }
+        public DateTime CriadoEm { get; set; }
     }
 }
