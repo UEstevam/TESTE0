@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Roger Marques\\OneDrive\\Documentos\\EstoquePRO\\src\\src.csproj": {}
+    "E:\\Downloads_Navegador\\PUC_SEMESTRE_2\\src\\src.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Roger Marques\\OneDrive\\Documentos\\EstoquePRO\\src\\src.csproj": {
+    "E:\\Downloads_Navegador\\PUC_SEMESTRE_2\\src\\src.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Roger Marques\\OneDrive\\Documentos\\EstoquePRO\\src\\src.csproj",
+        "projectUniqueName": "E:\\Downloads_Navegador\\PUC_SEMESTRE_2\\src\\src.csproj",
         "projectName": "src",
-        "projectPath": "C:\\Users\\Roger Marques\\OneDrive\\Documentos\\EstoquePRO\\src\\src.csproj",
-        "packagesPath": "C:\\Users\\Roger Marques\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Roger Marques\\OneDrive\\Documentos\\EstoquePRO\\src\\obj\\",
+        "projectPath": "E:\\Downloads_Navegador\\PUC_SEMESTRE_2\\src\\src.csproj",
+        "packagesPath": "C:\\Users\\Estevam\\.nuget\\packages\\",
+        "outputPath": "E:\\Downloads_Navegador\\PUC_SEMESTRE_2\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Roger Marques\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Estevam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -80,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

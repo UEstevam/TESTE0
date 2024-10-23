@@ -19,7 +19,7 @@
         </header>
 
         <div class="menu">
-            <h2>EMPRESA XXXXXXX LTDA</h2>
+            <a> id="email" type="text" asp-for="Email" class="form-control" </a>
             <nav>
                 <ul>
                     <li><a href="#" >Estoques</a></li>
@@ -101,9 +101,9 @@
                                 <a style="text-decoration: none" asp-controller="Fornecedor" asp-action="Editar" asp-route-id="@item.Id">
                                     <img src="~/images/pencil-square.svg" />
                                 </a> |
-                                <buttton asp-controller="Fornecedor" asp-action="Deletar" asp-route-id="@item.Id" onclick="return confirm('Você tem certeza que deseja deletar este fornecedor?');">
+                                <a asp-controller="Fornecedor" asp-action="Deletar" asp-route-id="@item.Id" onclick="return confirm('Você tem certeza que deseja deletar este fornecedor?');">
                                     <img src="~/images/trash.svg" />
-                                </buttton>
+                                </a>
                             </td>
                         </tr>
                     }
