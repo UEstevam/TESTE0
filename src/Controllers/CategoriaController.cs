@@ -25,18 +25,7 @@ namespace src.Controllers
 
             }
 
-            // Converte o userId para int de maneira segura
-            int userIdParsed;
-            if (!int.TryParse(userId, out userIdParsed))
-            {
-                // Se a conversão falhar, também podemos redirecionar ou tratar o erro
-                return View("Error");
-            }
-
-            // Busca as categorias associadas ao usuário autenticado
-            var categorias = _context.Categoria
-                                     .Where(c => c.IdUser == userIdParsed)
-                                     .ToList();
+           var categorias = _context.Categoria.Where(f => f.IdUser == int.Parse(userId)).ToList(); 
 
             return View(categorias);
         }
@@ -120,14 +109,14 @@ namespace src.Controllers
         // Ação para deletar um fornecedor
         public IActionResult Deletar(int id)
         {
-            var fornecedor = _context.Fornecedor.FirstOrDefault(f => f.Id == id);
-            if (fornecedor == null)
+            var categoria = _context.Categoria.FirstOrDefault(f => f.Id == id);
+            if (categoria == null)
             {
                 return NotFound();
             }
 
             // Remove o usuário do banco de dados
-            _context.Fornecedor.Remove(fornecedor);
+            _context.Categoria.Remove(categoria);
             _context.SaveChanges();
 
             // Redireciona para a página inicial ou página de sucesso após a deleção

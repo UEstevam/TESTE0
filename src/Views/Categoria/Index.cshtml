@@ -62,7 +62,7 @@
                                 <a style="text-decoration: none" asp-controller="Fornecedor" asp-action="Editar" asp-route-id="@item.Id">
                                     <img src="~/images/pencil-square.svg" alt="Editar" />
                                 </a> |
-                                <a asp-controller="Fornecedor" asp-action="Deletar" asp-route-id="@item.Id" onclick="return confirm('Você tem certeza que deseja deletar esta categoria?');">
+                                <a asp-controller="Categoria" asp-action="Deletar" asp-route-id="@item.Id" onclick="return confirm('Você tem certeza que deseja deletar esta categoria?');">
                                     <img src="~/images/trash.svg" alt="Deletar" />
                                 </a>
                             </td>
