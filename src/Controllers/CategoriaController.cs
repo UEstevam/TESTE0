@@ -33,41 +33,36 @@ namespace src.Controllers
         // Renderiza o formulário para editar um fornecedor
         public IActionResult Editar(int id)
         {
-            var fornecedor = _context.Fornecedor.FirstOrDefault(f => f.Id == id);
-            if (fornecedor == null)
+            var categoria = _context.Categoria.FirstOrDefault(f => f.Id == id);
+            if (categoria == null)
             {
                 return NotFound();
             }
-            return View(fornecedor);
+            return View(categoria);
         }
 
-        // Ação para editar um fornecedor
+        // Ação para editar uma Categoria
         [HttpPost]
-        public IActionResult EditarFornecedor(Fornecedor fornecedor)
+        public IActionResult EditarCategoria(Categoria categoria)
         {
             // Busca o usuário pelo ID
-            var fornecedorExistente = _context.Fornecedor.FirstOrDefault(u => u.Id == fornecedor.Id);
+            var categoriaExistente = _context.Categoria.FirstOrDefault(u => u.Id == categoria.Id);
 
-            if (fornecedorExistente == null)
+            if (categoriaExistente == null)
             {
                 return NotFound();
             }
 
-            // Atualiza os dados do usuário
-            fornecedorExistente.Id = fornecedor.Id;
-            fornecedorExistente.Nome = fornecedor.Nome;
-            fornecedorExistente.Email = fornecedor.Email;
-            fornecedorExistente.Telefone = fornecedor.Telefone;
-            fornecedorExistente.EnderecoRua = fornecedor.EnderecoRua;
-            fornecedorExistente.EnderecoNumero = fornecedor.EnderecoNumero;
-            fornecedorExistente.EnderecoCEP = fornecedor.EnderecoCEP;
-            fornecedorExistente.EnderecoUF = fornecedor.EnderecoUF;
+            // Atualiza os dados da categoria
+            categoriaExistente.Nome = categoria.Nome;
+            categoriaExistente.Descricao = categoria.Descricao;
+   
 
             // Salva as alterações no banco de dados
-            _context.Fornecedor.Update(fornecedorExistente);
+            _context.Categoria.Update(categoriaExistente);
             _context.SaveChanges();
 
-            // Redireciona para o fornecedor atualizado, passando o ID
+            // Redireciona para o fornecedor atualizado
             return RedirectToAction("Index");
         }
 

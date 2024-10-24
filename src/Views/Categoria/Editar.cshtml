@@ -1,0 +1,22 @@
+﻿@model src.Models.Categoria
+
+@{
+    ViewData["Title"] = "Editar Categoria Estoque Pro";
+}
+
+<form asp-controller="Categoria" asp-action="EditarCategoria" method="post">
+    <input type="hidden" asp-for="Id" />
+
+
+    <div class="mb-3">
+        <label for="nome" class="form-label">Nome</label>
+        <input id="nome" type="text" asp-for="Nome" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label for="descricao" class="form-label">Descrição</label>
+        <input id="descricao" type="text" asp-for="Descricao" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Editar Categoria</button>
+</form>
