@@ -37,7 +37,7 @@
             </div>
 
             <div class="add-supplier">
-                <a class="btn btn-primary" asp-controller="Fornecedor" asp-action="Adicionar">Adicionar</a>
+                <a class="btn btn-primary" asp-controller="Categoria" asp-action="Adicionar">Adicionar Categoria</a>
             </div>
 
             <table class="table">
@@ -59,7 +59,7 @@
                             <td>@Html.DisplayFor(modelItem => item.Descricao)</td>
                             <td>@Html.DisplayFor(modelItem => item.CriadoEm)</td>
                             <td>
-                                <a style="text-decoration: none" asp-controller="Fornecedor" asp-action="Editar" asp-route-id="@item.Id">
+                                <a style="text-decoration: none" asp-controller="Categoria" asp-action="Editar" asp-route-id="@item.Id">
                                     <img src="~/images/pencil-square.svg" alt="Editar" />
                                 </a> |
                                 <a asp-controller="Categoria" asp-action="Deletar" asp-route-id="@item.Id" onclick="return confirm('Você tem certeza que deseja deletar esta categoria?');">

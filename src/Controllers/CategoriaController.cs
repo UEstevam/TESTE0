@@ -71,33 +71,30 @@ namespace src.Controllers
             return RedirectToAction("Index");
         }
 
-        // Renderiza o formulário para adicionar um fornecedor
+        // Renderiza o formulário para adicionar uma categoria
         public IActionResult Adicionar()
         {
             return View();
         }
 
-        // Ação adicionar um novo fornecedor
+        // Ação adicionar um nova Categoria
         [HttpPost]
-        public IActionResult AdicionarFornecedor(string nome, string email, string telefone, string EnderecoRua, string EnderecoNumero, string EnderecoCEP, string EnderecoUF)
+        public IActionResult AdicionarCategoria(string Nome, string Descricao)
         {
 
             var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
             if (userId != null)
             {
-                var novoFornecedor = new Fornecedor
+                var novaCategoria = new Categoria
                 {
                     IdUser = int.Parse(userId),
-                    Nome = nome,
-                    Email = email,
-                    Telefone = telefone,
-                    EnderecoRua = EnderecoRua,
-                    EnderecoNumero = EnderecoNumero,
-                    EnderecoCEP = EnderecoCEP,
-                    EnderecoUF = EnderecoUF
+                    Nome = Nome,
+                    Descricao = Descricao,
+                    CriadoEm = DateTime.Now
+        
                 };
 
-                _context.Fornecedor.Add(novoFornecedor);
+                _context.Categoria.Add(novaCategoria);
                 _context.SaveChanges();
 
                 return RedirectToAction("Index");
@@ -106,7 +103,7 @@ namespace src.Controllers
             return NotFound();
         }
 
-        // Ação para deletar um fornecedor
+        // Ação para deletar uma categoria
         public IActionResult Deletar(int id)
         {
             var categoria = _context.Categoria.FirstOrDefault(f => f.Id == id);
@@ -115,11 +112,11 @@ namespace src.Controllers
                 return NotFound();
             }
 
-            // Remove o usuário do banco de dados
+            // Remove a categoria do banco de dados
             _context.Categoria.Remove(categoria);
             _context.SaveChanges();
 
-            // Redireciona para a página inicial ou página de sucesso após a deleção
+            // Redireciona para a página inicial
             return RedirectToAction("Index");
 
         }

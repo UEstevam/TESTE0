@@ -1,0 +1,19 @@
+﻿@model src.Models.Categoria
+
+@{
+    ViewData["Title"] = "Adicionar Categoria Estoque Pro";
+}
+
+<form asp-controller="Categoria" asp-action="AdicionarCategoria" method="post">
+    <div class="mb-3">
+        <label for="nome" class="form-label">Nome</label>
+        <input id="nome" type="text" asp-for="Nome" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label for="descricao" class="form-label">Descrição</label>
+        <input id="descricao" type="text" asp-for="Descricao" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Adicionar Categoria</button>
+</form>
